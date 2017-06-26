@@ -67,6 +67,8 @@ Django template tag/filter 其實就是 Python function，只是我們要用一�
 </form>
 ```
 
+在這邊要注意，更改完後需要重新啟動 server 才會看的到改變，不然會看到 the tag is not registered.
+
 就實作完成 detail view 的刪除了。現在只有當使用者確實可以刪除某個店家時，才能看到刪除按鈕。問題解決！
 
 接著在列表頁也加上類似的東西。不過這次我們來用 Ajax 實作。我們想要做到：
